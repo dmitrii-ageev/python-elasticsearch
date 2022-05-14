@@ -22,7 +22,7 @@ Python module for simplified interaction with Elasticsearch service.
 - store(self, index: str, body: dict): - _Saves data in index._
 - setup(self): - _This routine does a basic setup._
 - get(self, query=None): - _Retrieves data from the index._
-- put(self, body: dict): - _Puts date to the index._
+- put(self, body: dict): - _Puts data to the index._
 
 ## Examples
 
