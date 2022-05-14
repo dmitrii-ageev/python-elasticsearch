@@ -216,7 +216,7 @@ class ElasticSearch:
         return self.query(index='data', query=query)
 
     def put(self, body: dict):
-        """Puts date to the index."""
+        """Puts data to the index."""
         body['timestamp'] = to_es_timestamp(datetime.now())
         return self.store(index='data', body=body)
 
